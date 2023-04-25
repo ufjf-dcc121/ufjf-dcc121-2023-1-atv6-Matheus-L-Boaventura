@@ -16,10 +16,10 @@
         const p2 = document.getElementById('p2');
         const p3 = document.getElementById('p3');
 
-        const v1= p1.innerText;
-        const v2 = p2.innerText;
+        const v1 = Number(p1.innerText);
+        const v2 = Number(p2.innerText);
         const resultado = v1 + v2;
 
-        p3.innerText = resultado;
+        p3.innerText = `A soma de ${v1}${v2} é ${resultado}`;
     </script>
 </html>
